@@ -1,0 +1,67 @@
+.Nav-bar{
+    background-color: aquamarine;
+    height:40px;
+    list-style-type: none;
+    display:flex;
+    justify-content:center;
+    margin-left: 0px;
+    -webkit-text-fill-color:green;
+    padding: 1px;
+    transition: 0.03ms;
+}
+.Nav-bar :hover{
+    background-color:white;
+    color:white;
+    border-radius: 5px;
+    height:none;
+    padding: 1px;
+    transition: 0ms;
+
+    
+}
+.header{
+    background-color: bisque;
+    text-align:left;
+    height: 400px;
+    background-image: url(background.jpg);
+
+}
+.about{
+    background-color: aquamarine;
+    text-decoration: 0px;
+    text-decoration-style: none;
+    text-align: center;
+    height: 400px;
+}
+.footer{
+    background-color: cadetblue;
+    text-align: center;
+    height: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+nav{
+    list-style: none;
+    text-align: center;
+    transition: 0ms;
+}
+.Nav-bar li{
+margin-left: 100px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+transition: 0ms;
+}
+.logo{
+    text-align: left;
+    padding: 10px 10px;
+    font-size: 28px;
+    border-radius: 150px;
+}
+.header h2{
+    text-align:center;
+}
+.logo img{
+     width: 70px;
+    height: 70px;
+    border-radius: 10px;
+
+}

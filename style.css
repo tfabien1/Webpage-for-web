@@ -1,0 +1,131 @@
+.Nav-bar{
+    background-color: aquamarine;
+    height:40px;
+    list-style-type: none;
+    display:flex;
+    justify-content:center;
+    margin-left: 0px;
+    -webkit-text-fill-color:green;
+    padding: 1px;
+    transition: 0.03ms;
+}
+.Nav-bar :hover{
+    background-color:white;
+    color:white;
+    border-radius: 5px;
+    height:none;
+    padding: 1px;
+    transition: 0ms;
+
+    
+}
+.header{
+    background-color: bisque;
+    text-align:left;
+    height: 400px;
+    background-image: url(background.jpg);
+
+}
+.about{
+    background-color: aquamarine;
+    text-decoration: 0px;
+    text-decoration-style: none;
+    text-align: center;
+    height: 400px;
+}
+.footer{
+    background-color: cadetblue;
+    text-align: center;
+    height: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+nav{
+    list-style: none;
+    text-align: center;
+    transition: 0ms;
+}
+.Nav-bar li{
+margin-left: 100px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+transition: 0ms;
+}
+.logo{
+    text-align: left;
+    padding: 10px 10px;
+    font-size: 28px;
+    border-radius: 150px;
+}
+.header h2{
+    text-align:center;
+}
+.logo img{
+     width: 70px;
+    height: 70px;
+    border-radius: 10px;
+
+}
+.product-card *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+    border-radius: 0px;
+}
+.product-card{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+.card{
+    background: white;
+    width: 280px;
+    border: 2px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgb(0,0,0, 0.4);
+
+}
+.card img{
+    width: 100px;
+    border-radius: 5px;
+}
+.card:hover{
+    transform: translateY(-8px);
+    
+}
+button{
+    background: rgb(91, 239, 220);
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    
+}
+button:hover{
+    background:#6badf3;
+}
+.price{
+    font-size: 20px;
+    color: rgb(29, 99, 108);
+    font-weight: bold;
+}
+.card:h2{
+    margin: 15px;
+}
+
+@media (max-width:768px){
+    .product-card{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .card{
+        width: 90px;
+        max-width:320px;
+        }
+}

@@ -1,12 +1,12 @@
 .Nav-bar{
     background-color: aquamarine;
-    height:40px;
+    min-height: 50px;
     list-style-type: none;
     display:flex;
     justify-content:center;
     margin-left: 0px;
     -webkit-text-fill-color:green;
-    padding: 1px;
+    padding: 10px;
     transition: 0.03ms;
     flex-wrap: wrap;
     gap: 30px;
@@ -25,8 +25,8 @@
     background-color: bisque;
     text-align:left;
     background-image: url(background.jpg);
-    min-height: 100vh;
-    padding: 40px 20px;
+    min-height: auto;
+    padding: 40px 20px 80px;
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,7 +105,7 @@ transition: 0ms;
 }
 button{
     background: rgb(91, 239, 220);
-    padding: 20px;
+    padding: 10px 20px;
     border-radius: 5px;
     border: none;
     cursor: pointer;

@@ -56,21 +56,15 @@ nav{
 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 transition: 0ms;
 }
-.logo{
-    text-align: left;
-    padding: 10px 10px;
-    font-size: 28px;
-    border-radius: 150px;
+.head{
+    text-align: center;
+    font-size: 12px;
+    align-items: center;
 }
 .header h2{
     text-align:center;
 }
-.logo img{
-     width: 70px;
-    height: 70px;
-    border-radius: 10px;
 
-}
 .product-card *{
     margin: 0px;
     padding: 0px;
@@ -92,7 +86,7 @@ transition: 0ms;
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 10px rgb(0,0,0, 0.4);
-    flex-wrap: wrap;
+    
 
 }
 .card img{
@@ -104,18 +98,25 @@ transition: 0ms;
     
 }
 button{
-    background: rgb(91, 239, 220);
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
+    background: rgba(91, 239, 219, 0.468);
+    padding: 20px;
+    border-radius: 50%;
+    border:1px solid black;
     cursor: pointer;
-    font-size: 16px;
-    transition: 0.3s;
-    width: 60%;
+    font-size: 10px;
+    transition:all 0.3s ease;
+    width: 40%;
+    box-shadow: 0 6px 10px rgb(0,144,255,0.3);
+    font-size: 18px;
+
     
 }
 button:hover{
-    background:#6badf3;
+    background:linear-gradient(135deg,#00ffa67d,#00c6ff);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgb(0,144,255,0.3);
+    
+
 }
 .price{
     font-size: 20px;
@@ -126,21 +127,63 @@ button:hover{
     margin: 15px;
 }
 
-@media (max-width:800px){
-    .Nav-bar{
-        flex-direction:column;
+/* Tablets */
+@media (max-width: 800px) {
+    .Nav-bar {
+        flex-direction: column;
         align-items: center;
         gap: 15px;
+    }
 
-    }
-    .product-card{
-        flex-direction:row;
-        align-items: center;
-    }
-    .card{
-        width: 90%;
-        max-width:320px;
-        display: flex;
+    .product-card {
         flex-direction: column;
-        }
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .header {
+        text-align: center;
+        padding: 30px 15px 50px;
+    }
+
+    button {
+        width: 60%;
+    }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+    .head {
+        font-size: 10px;
+    }
+
+    .header,
+    .about {
+        padding: 25px 15px;
+    }
+
+    .header h2,
+    .about h2 {
+        font-size: 22px;
+    }
+
+    .card {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .card img {
+        width: 80px;
+    }
+
+    button {
+        width: 70%;
+        padding: 15px;
+        font-size: 16px;
+    }
 }

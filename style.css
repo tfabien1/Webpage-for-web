@@ -156,7 +156,7 @@ button:hover{
     }
 }
 
-/* Small phones */
+
 @media (max-width: 480px) {
     .head {
         font-size: 10px;
